@@ -1,24 +1,29 @@
-Filippos Rafail Papadakis AM:4453
+Author: Filippos Rafail Papadakis
+
+## How to RUN
+* Compilation
+
+          gcc -fopenmp GameOfLife.c -O3
+
+* Threads change from the definition at the start of the code text.
+
+* The program to run needs:
+
+        ./a.out {glidfile} {generations} {outputfile}
+
+Where 
+* glidfile : the input file (px glid1.txt)
+
+* generations: the genes that we want to run
+
+* outputfile: the file that we want to save the results.
+##### If there isn't an output file then it prints the results to the stdout(not suggested).
 
 ###################################################################################################
 ###################################################################################################
-==>The program coplies with --> gcc -fopenmp GameOfLife.c -O3
-==> threads changes from the define at the start of the code text.
-==>The program to run needs:
-
-    ./a.out "glidfile" "generations" "outputfile"
-
-Where "glidfile" the input file (px glid1.txt)
-
-"generations" the genes that we want to run
-
-"outputfile" the file that we want to save the results.
---If there isnt an outputfile then it prints the results to the terminal(not suggested).--
-###################################################################################################
-###################################################################################################
 
 
-    Question 1 && Question 2:
+### Question 1 && Question 2:
 ####################### Glid1.txt:####################################
  ---------------Glid1.txt OpenMp 100 generatios----------------------
 
@@ -132,7 +137,7 @@ Where "glidfile" the input file (px glid1.txt)
           |Avgtime|174.57620992|
 
 
-   Question 3:
+   ### Question 3:
 The overhead of OpenMP program with parallelism 1 is due to 3 problems. (1) Because of implicit barriers at the end of the parallel regions, (2) Communication between processors works with
 cache coherency mechanism. Where memory access is more expensive (3) Hardware resource contention, there are shared resources that, if all cores try to access
 at the same time they do not scale.
