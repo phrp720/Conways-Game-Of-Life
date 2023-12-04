@@ -21,7 +21,7 @@ Where
 
 
 ### Question 1 && Question 2:
- Glid1.txt:
+
  ---------------Glid1.txt OpenMp 100 generatios----------------------
 
 
@@ -78,7 +78,7 @@ Where
 
 
 
- Glid2.txt:
+
  ---------------Glid2.txt OpenMp 100 generatios----------------------
 
     ---With OpenMp 100 generations---
@@ -141,5 +141,5 @@ at the same time they do not scale.
 
 
 ### Question 4:
--->I notice that in both glid1 and glid2 the speedup depending on the repetitions (100-1000) remains almost unchanged.
--->On the other hand, depending on the size of the input, we notice (glid1,glid2) that as you increase the size of the input, the speedup also increases, so speedup_glid1<speedup_glid2.
+* I notice that in both glid1 and glid2 the speedup depending on the repetitions (100-1000) remains almost unchanged.
+* On the other hand, depending on the size of the input, we notice (glid1,glid2) that as you increase the size of the input, the speedup also increases, so speedup_glid1<speedup_glid2.
