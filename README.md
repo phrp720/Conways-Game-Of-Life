@@ -12,7 +12,7 @@ Author: Filippos Rafail Papadakis
         ./a.out {glidfile} {generations} {outputfile}
 
 Where 
-* glidfile : the input file (px glid1.txt)
+* glidfile : the input file (eg glid1.txt)
 
 * generations: the genes that we want to run
 
